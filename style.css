@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-principal:#5A057F;
+    --cor01:#822EA6;
+    --cor02:#710A9D;
+    --cor03:#490367;
+    --cor04:#2c013e;
+}
+header{
+    padding: 35px;
+    background-image: linear-gradient(to bottom,var(--cor04),var(--cor02));
+}
+header>h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 6px black;
+}
