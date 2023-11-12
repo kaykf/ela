@@ -148,6 +148,19 @@ main>.b2{
     padding: 10px;
     text-align: center;
     font-size: 2em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.525) ;
+}
+.b2>h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+.b2>p{
+    font-family: var(--fonte-principal);
+    padding: 10px;
+    display: none;
 }
 .b2>p{
     display: none;
