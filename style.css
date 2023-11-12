@@ -17,7 +17,8 @@
 }
 body{
     background-color: rgb(223, 221, 221);
-    height: 100%;
+    min-height: 200px;
+    max-height: 1000px;
 }
 header{
     padding: 35px;
@@ -33,6 +34,7 @@ header>h1{
 nav{
     background-color: var(--cor03);
     padding: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.509) ;
 }
 nav>a{
     color: white;
@@ -84,9 +86,94 @@ footer{
     padding: 6px;
     font-weight: bold;
     text-shadow: 0px 0px 6px black;
-    margin-bottom: 0px;
+    margin-top: 40px;
 }
 footer>a{
     color: white;
     text-decoration: none;
+}
+/*guia*/
+.bodi1{
+    background-color: gray;
+}
+main{
+    background-color: gray;
+    margin: 20px;
+}
+main>.b1{
+    min-height: 150px;
+    max-height: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    min-width: 200px;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.501);
+}
+.b1>h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.525) ;
+}
+.b1>h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+.b1>p{
+    font-family: var(--fonte-principal);
+    padding: 10px;
+    display: none;
+}
+.b1:hover>p{
+    display: block;
+}
+.b1:active>p{
+    display: block;
+}
+main>.b2{
+    background-color: whitesmoke;
+    min-height: 150px;
+    max-height: 1000px;
+    margin: auto;
+    min-width: 200px;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.501);
+}
+.b2>h2{
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+}
+.b2>p{
+    display: none;
+}
+.b2:hover>p{
+    display: block;
+}
+.b2:active>p{
+    display: block;
+}
+
+
+
+div.botoes{
+    padding: 30px;
+        text-align: center;
+}
+.botoes>a{
+    background-color: var(--cor02);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.439);
+    margin: auto;
+}
+.botoes>a:hover{
+    background-color: var(--cor01);
 }
