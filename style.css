@@ -16,7 +16,7 @@
     --fonte-principal: Arial,Helvetica,sans-serif;
 }
 body{
-    background-color: rgb(223, 221, 221);
+    background-color: gray;
     min-height: 200px;
     max-height: 1000px;
 }
@@ -93,9 +93,6 @@ footer>a{
     text-decoration: none;
 }
 /*guia*/
-.bodi1{
-    background-color: gray;
-}
 main{
     background-color: gray;
     margin: 20px;
@@ -186,4 +183,18 @@ div.botoes{
 }
 .botoes>a:hover{
     background-color: var(--cor01);
+}
+/*presente 1*/
+section{
+    position: relative;
+}
+audio{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    left: 5%;
+    min-width: 20px;
+    max-width: 250px;
+    margin: auto;
 }
