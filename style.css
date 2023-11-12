@@ -17,6 +17,7 @@
 }
 body{
     background-color: rgb(223, 221, 221);
+    height: 100%;
 }
 header{
     padding: 35px;
@@ -51,7 +52,8 @@ nav>a:active{
 }
 section{
     padding: 30px;
-    height: 400px;
+    min-height: 400px;
+    max-height: 1000px;
 }
 article{
     margin: auto;
