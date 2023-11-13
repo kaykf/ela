@@ -193,8 +193,5 @@ audio{
     padding: 10px;
     border-radius: 15px;
     position: absolute;
-    left: 5%;
-    min-width: 20px;
-    max-width: 250px;
-    margin: auto;
+    width: 170px;
 }
