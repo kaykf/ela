@@ -208,4 +208,7 @@ audio{
     min-height: 100px;
     max-height: 2000px;
 }
-.bodic
+.bodic{
+    min-height: 500px;
+    max-height: 3000px;
+}
