@@ -184,6 +184,12 @@ div.botoes{
 .botoes>a:hover{
     background-color: var(--cor01);
 }
+.b1>h4{
+    text-align: center;
+}
+.b2>h4{
+    text-align: center;
+}
 /*presente 1*/
 section{
     position: relative;
